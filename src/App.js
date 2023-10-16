@@ -98,9 +98,7 @@ export default function Game() {
   });
 
   if (sortAsc) {
-    // moves.reverse();
-    moves.sort((a, b) => b.key - a.key);
-    console.log('a')
+    moves.reverse();
   }
 
   const sortButton = (
